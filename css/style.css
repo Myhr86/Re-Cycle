@@ -1,0 +1,1013 @@
+header, nav, article, section {
+  display: block;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  margin: 0;
+}
+
+header, hr, nav {
+  display: block;
+}
+.headerWrapper {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 50;
+}
+header {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  position: 0;
+  height: 100px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+header p {
+  position: absolute;
+  top: 40px;
+  left: 180px;
+  color: #0071BC;
+}
+.map img{
+  float: left;
+  width: 100%;
+}
+#map img{
+  width: 700px;
+  height: 400px;
+}
+#map2 img{
+  width: 700px;
+  height: 400px;
+}
+#desktopNav {
+  display: inline-block;
+  position: absolute;
+  top: 23%;
+  left: 60%;
+  color: blue;
+  background: black;
+  padding-right: 30px;
+}
+#mobileNav {
+  display: none;
+}
+li {
+  display: inline-block;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Patua One', cursive;
+}
+a {
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 16px;
+  color: white;
+}
+a:link {
+  color: white;
+}
+a:hover {
+  color: #22B573;
+}
+a.selected:link, a.selected:visited{
+  color: #0071BC;
+}
+a.selectedMobile:link, a.selectedMobile:visited{
+  color: #22B573;
+}
+h1 {
+  position: absolute;
+  color: #22B573;
+  top: 0px;
+  left: 50px;
+  font-family: 'Rubik', sans-serif;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 70px;
+  font-family: 'Patua One', cursive;
+  text-align: center;
+}
+#subPagesH3 {
+  margin-top: 0;
+  margin-bottom: 70px;
+  font-family: 'Patua One', cursive;
+  text-align: center;
+  font-size: 1.5em;
+}
+h3 {
+  text-align: center;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+#paragraphMargin {
+  margin-top: 50px;
+  font-weight: 700;
+}
+hr {
+  position: absolute;
+  top: 45px;
+  left: 40px;
+  color: black;
+  background: black;
+  width: 80%;
+}
+article {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+section {
+  max-width: 1400px;
+  width: 100%;
+  display: inline;
+  overflow: hidden;
+}
+#route1Mobile {
+  display: none;
+}
+#route2Mobile {
+  display: none;
+}
+section.column1 {
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 10%;
+  float: left;
+  width: 35%;
+}
+section.column2 {
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 10%;
+  float: right;
+  width: 60%;
+}
+section.column3 {
+  display: inline-block;
+  margin-bottom: 50px;
+  float: left;
+  width: 35%;
+  margin-top: 25%;
+}
+section.column4 {
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 10%;
+  float: right;
+  width: 60%;
+}
+section.introImage {
+  float: left;
+  position: relative;
+  clear: both;
+  background-image: url(../images/big_citycycling.jpg);
+  width: 100%;
+  height: 680px;
+  margin-bottom: 70px;
+}
+section.introImageAbout {
+  float: left;
+  position: relative;
+  clear: both;
+  background-image: url(../images/big_about.jpg);
+  width: 100%;
+  height: 680px;
+  margin-bottom: 70px;
+}
+section.introImageContact {
+  float: left;
+  position: relative;
+  clear: both;
+  background-image: url(../images/big_contact.jpg);
+  width: 100%;
+  height: 680px;
+  background-position: bottom;
+  margin-bottom: 70px;
+}
+section.introImageTours {
+  float: left;
+  position: relative;
+  clear: both;
+  background-image: url(../images/big_tours.jpg);
+  width: 100%;
+  height: 680px;
+  background-position: bottom;
+  margin-bottom: 90px;
+}
+section.introImage img:first-of-type {
+  width: 100%;
+  display: none;
+}
+section.introImage img:last-of-type {
+  position: absolute;
+  width: 40%;
+  top: 20%;
+  left: 30%;;
+  z-index: 5;
+}
+#imgWidth {
+  display: none;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 300px;
+}
+#headerWidth {
+  position: absolute;
+  top: 59%;
+  left: 30%;
+  z-index: 20;
+  color: white;
+  font-size: 56px;
+  background-color: black;
+  opacity: 0.8;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.customH2 {
+  position: absolute;
+  top: 59%;
+  left: 40%;
+  z-index: 20;
+  color: white;
+  font-size: 56px;
+  background-color: black;
+  opacity: 0.8;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.customH2tours {
+  position: absolute;
+  top: 59%;
+  left: 30%;
+  z-index: 20;
+  color: white;
+  font-size: 56px;
+  background-color: black;
+  opacity: 0.8;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+section.col1 {
+  text-align: center;
+  position: relative;
+  margin-top: 100px;
+  padding-top: 190px;
+  padding-bottom: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.viewbanner {
+  margin-top: 50px;
+  margin-left: 45%;
+  position: relative;
+}
+footer {
+  display: flex;
+  position: relative;
+  background: #22B573;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+#toursFooter {
+  position: relative;
+  float: left;
+  bottom: 0%;
+  width: 100%;
+}
+footer p {
+  margin-top: 30px;
+}
+#footerButton {
+  margin-top: 10px;
+  background: #0071BC;
+  box-shadow: 3px 2px black;
+  border: none;
+  padding: 10px;
+  border-radius: 20%;
+  color: white;
+}
+#footerButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  background: darkgreen;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.footerCol {
+  flex: 1;
+  margin-left: 9%;
+}
+.footerHeaders {
+  text-align: left;
+}
+.fa {
+  margin-top: 1px;
+  margin-left: 20px;
+  font-size: 30px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+}
+.fa-instagram {
+  background: #125688;
+}
+.fa-twitter {
+ background: #55ACEE;
+}
+.email:hover{
+  color: #0071BC;
+}
+span {
+  color: white;
+}
+
+/* form */
+form {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+#contact {
+  background: #22B573;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+legend {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+#formH3 {
+  font-family: 'Patua One', cursive;
+  font-size: 26px;
+  padding-left: 0%;
+}
+fieldset {
+  border: none;
+  margin: 0 0 10px;
+  padding: 0;
+  padding-top: 10px;
+  margin-left: 6%;
+  width: 100%;
+}
+#contact input[type="text"],
+#contact input[type="tel"],
+#contact input[type="email"],
+#contact textarea {
+  width: 80%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+}
+#contact button[type="submit"] {
+  padding: 10px;
+  width: 26%;
+  background: #0071BC;
+  color: white;
+  font-weight: 700;
+  border: none;
+  margin-left: 56%;
+  box-shadow: 3px 2px black;
+  border: none;
+  border-radius: 20%;
+}
+#contact button[type="submit"]:hover {
+  background: darkgreen;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+/* media queries */
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+  header {
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 0;
+  }
+  article {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+  }
+  section {
+    display: block;
+    overflow: hidden;
+  }
+  section.column1 {
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0%;
+    float: none;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    width: 95%;
+  }
+  section.column2 {
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0%;
+    margin-left: 5%;
+    float: none;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+  }
+  section.column3 {
+    display: block;
+    margin-bottom: 0px;
+    width: 100%;
+    float: none;
+    margin-top: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    width: 95%;
+  }
+  section.column4 {
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0%;
+    margin-left: 5%;
+    float: none;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+  }
+  section.col1 {
+    width: 95%;
+  }
+  .headerWrapper {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 0;
+  }
+  #route1Mobile {
+    display: block;
+  }
+  #route1Desktop {
+    display: none;
+  }
+  #route2Mobile {
+    display: block;
+  }
+  #route2Desktop {
+    display: none;
+  }
+  #desktopNav {
+    display: none;
+  }
+  #mobileNav {
+    display: block;
+    position: sticky;
+    top: 0px;
+    z-index: 30;
+    background: white;
+    background: #0071BC;
+    margin-bottom: -17px;
+  }
+  li {
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Patua One', cursive;
+  }
+  ul {
+    left: 0;
+  }
+  a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px;
+    color: white;
+  }
+  a:link {
+    color: white;
+  }
+  h1 {
+    position: absolute;
+    color: #22B573;
+    top: 0px;
+    left: 50px;
+    font-family: 'Rubik', sans-serif;
+  }
+  h2 {
+    margin-top: 0;
+    font-family: 'Patua One', cursive;
+    text-align: center;
+  }
+  p {
+    font-family: 'Montserrat', sans-serif;
+  }
+  hr {
+    position: absolute;
+    top: 45px;
+    left: 40px;
+    color: black;
+    background: black;
+    width: 80%;
+  }
+  header p {
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    color: #0071BC;
+  }
+  article {
+    width: 100%;
+    overflow: hidden;
+  }
+  section.introImage {
+    position: relative;
+    clear: both;
+    background: none;
+    height: 100%;
+  }
+  section.introImageAbout {
+    background-image: none;
+    height: 100%;
+  }
+  section.introImageContact {
+    background-image: none;
+    height: 100%;
+  }
+  section.introImageTours {
+    background-image: none;
+    height: 100%;
+  }
+  section.introImage img:first-of-type {
+    width: 100%;
+    display: block;
+  }
+  section.introImage img:last-of-type {
+    position: absolute;
+    width: 60%;
+    top: 60px;
+    left: 80px;
+    z-index: 5;
+  }
+  #imgWidth {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 300px;
+  }
+  h2#headerWidth {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    z-index: 20;
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    opacity: 0.8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  h2.customH2 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    z-index: 20;
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    opacity: 0.8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  h2.customH2tours {
+    position: absolute;
+    top: 59%;
+    left: 5%;
+    top: 10%;
+    right: 5%;
+    z-index: 20;
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    opacity: 0.8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  section.col1 {
+    text-align: center;
+    position: relative;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .viewbanner {
+    bottom: 0px;
+    position: absolute;
+    left: -19%;
+  }
+  footer {
+    display: block;
+    position: relative;
+    background: #22B573;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+  }
+  footer p {
+    margin-top: 10px;
+  }
+  button {
+    margin-top: 0px;
+    padding: 6px;
+    margin-left: 30%;
+    background: #0071BC;
+    box-shadow: 3px 2px;
+    border: none;
+  }
+  button:hover {
+    opacity: 0.7;
+  }
+  .fa {
+    margin-left: 0px;
+  }
+  .footerCol {
+    margin-left: 9%;
+  }
+  .footerCol:first-of-type {
+    margin-bottom: 50px;
+  }
+  .footerCol:nth-last-of-type(2) {
+    margin-right: 20px;
+  }
+  .footerCol:last-of-type {
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+  .footerHeaders {
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+span {
+  color: white;
+}
+#footerForm {
+  margin-left: 40px;
+  }
+#socialMedia {
+    margin-left: 25%;
+  }
+#footerButton {
+  margin-left: 25%;
+}
+#inputTextLine {
+  width: 60%;
+}
+#emailLabel {
+  margin-left: -10%;
+}
+  footer h3 {
+    color: black;
+  }
+  form {
+    max-width: 480px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+  }
+  legend {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+  }
+  #contact {
+    background: #22B573;
+    padding: 25px;
+    width: 100%;
+  }
+  fieldset {
+    border: none;
+    margin: 0 0 10px;
+    padding: 0;
+    padding-top: 10px;
+    margin-left: 6%;
+    width: 100%;
+  }
+  #formH3 {
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+    margin-left: 0%;
+    padding-left: 0%;
+  }
+  #contact input[type="text"],
+  #contact input[type="number"],
+  #contact input[type="email"],
+  #contact textarea {
+    width: 80%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+  }
+  #contact button[type="submit"] {
+    padding: 10px;
+    width: 86%;
+    background: #0071BC;
+    color: white;
+    font-weight: 700;
+    border: none;
+    margin-left: 0;
+  }
+  #contact button[type="submit"]:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1000px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+  header {
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 0;
+  }
+  .container {
+    overflow: hidden;
+  }
+  #headerWidth {
+    left: 15%;
+  }
+  .customH2 {
+    left: 33%;
+  }
+  .customH2tours {
+    left: 15%;
+  }
+
+  #mobileNav {
+    display: block;
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: white;
+    background: #0071BC;
+    margin-bottom: -17px;
+  }
+  #mobileNav a{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  #desktopNav {
+    display: none;
+  }
+  #headerWidth {
+    position: absolute;
+    top: 59%;
+    left: 20%;
+    right: 20%;
+    z-index: 20;
+    color: white;
+    font-size: 56px;
+    background-color: black;
+    opacity: 0.8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .customH2 {
+    position: absolute;
+    top: 59%;
+    left: 25%;
+    right: 25%;
+    z-index: 20;
+    color: white;
+    font-size: 56px;
+    background-color: black;
+    opacity: 0.8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .customH2tours {
+    position: absolute;
+    top: 59%;
+    left: 20%;
+    right: 20%;
+    z-index: 20;
+    color: white;
+    font-size: 56px;
+    background-color: black;
+    opacity: 0.8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .viewbanner {
+    margin-left: 0%;
+    position: relative;
+  }
+  .fa {
+    margin-left: 0px;
+  }
+  .footerCol {
+    margin-left: 29%;
+  }
+  .footerCol:first-of-type {
+    margin-bottom: 50px;
+  }
+  .footerCol:nth-last-of-type(2) {
+    margin-right: 10px;
+  }
+  .footerCol:last-of-type {
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+  .footerHeaders {
+    text-align: left;
+    margin-bottom: 16px;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  legend {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+  }
+  #formH3 {
+    font-family: 'Patua One', cursive;
+    font-size: 24px;
+    margin-left: 0%;
+    padding-left: 0%;
+  }
+  #socialMedia {
+    margin-left: 0%;
+  }
+  footer {
+    display: block;
+    position: relative;
+    background: #22B573;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+  }
+  footer p {
+    margin-top: 10px;
+  }
+  button {
+    margin-top: 0px;
+    padding: 6px;
+    margin-left: 10px;
+    background: #0071BC;
+    box-shadow: 3px 2px;
+    border: none;
+  }
+  article {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+  }
+  section {
+    display: block;
+    overflow: hidden;
+  }
+  section.col1 {
+    margin-top: 0px;
+    padding-top: 0;
+  }
+  section.col2 {
+    padding-top: 20px;
+  }
+  section.column1 p {
+    width: 95%;
+  }
+  section.column3 p {
+    width: 95%;
+  }
+  section.column1 {
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0%;
+    float: none;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  section.column2 {
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 5%;
+    margin-left: 0;
+    float: none;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  section.column3 {
+    display: block;
+    margin-bottom: 0px;
+    width: 100%;
+    float: none;
+    margin-top: 15%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  section.column4 {
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 5%;
+    float: none;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+  /* form */
+  form {
+    width: 100%;
+  }
